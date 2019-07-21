@@ -115,7 +115,7 @@ class SmokeTestCase(unittest.TestCase):
 
     def test_sample_run(self):
         result = self._run('python flight_optimizer.py --from London --to Paris')
-        self.assertRegex(result.stdout, r'London, Gatwick --> Paris, Charles de Gaulle Airport ::: \d+\.\d+\$ per km')
+        self.assertRegex(result.stdout, r'London, Gatwick --> Paris, Charles de Gaulle Airport ::: \d+\.\d+km / \d+\$ = \d+\.\d+\$ per km')
 
     def _run(self, command):
         return sb.run(command, shell=True, text=True, stdout=sb.PIPE, stderr=sb.PIPE)

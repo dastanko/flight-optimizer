@@ -38,7 +38,7 @@ class Flight:
         return self.distance / self.price
 
     def __repr__(self) -> str:
-        return f'{self.departure} --> {self.destination} ::: {self.price_per_km:.2f}$ per km'
+        return f'{self.departure} --> {self.destination} ::: {self.distance:.2f}km / {self.price}$ = {self.price_per_km:.2f}$ per km'
 
 
 class NoSuchCity(Exception):

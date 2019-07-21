@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if test -z "$(docker images -q flight_optimizer:latest)"; then
+    docker build . -t flight_optimizer
+fi
+
+docker run --rm flight_optimizer $@
