@@ -38,7 +38,7 @@ class Flight:
         return self.distance / self.price
 
     def __repr__(self) -> str:
-        return f'{self.departure} --> {self.destination} ::: {self.price_per_km:.2f} $ per km'
+        return f'{self.departure} --> {self.destination} ::: {self.price_per_km:.2f}$ per km'
 
 
 class NoSuchCity(Exception):
@@ -126,5 +126,9 @@ if __name__ == '__main__':
 
     calculator = FlightCalculator(args.departure, args.destinations)
 
-    for flight in calculator.process():
-        pprint(flight)
+    try:
+        for flight in calculator.process():
+            print(flight)
+    except NoSuchCity as ex:
+        print(ex, file=sys.stderr)
+        sys.exit(1)

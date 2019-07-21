@@ -1,4 +1,5 @@
 import json
+import subprocess as sb
 import unittest
 from unittest import mock
 
@@ -95,3 +96,26 @@ class FlightCalculatorTestCase(unittest.TestCase):
         flights = list(calculator.process())
         self.assertEqual(2, len(flights))
         self.assertEqual([self.flight1, self.flight2], flights)
+
+
+help_output = """usage: flight_optimizer.py [-h] --from <city> --to <city> [<city> ...]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --from <city>         specifies departure city.
+  --to <city> [<city> ...]
+                        specifies list of destination cities.
+"""
+
+
+class SmokeTestCase(unittest.TestCase):
+    def test_show_help(self):
+        result = self._run('python flight_optimizer.py -h')
+        self.assertEqual(help_output, result.stdout)
+
+    def test_sample_run(self):
+        result = self._run('python flight_optimizer.py --from London --to Paris')
+        self.assertRegex(result.stdout, r'London, Gatwick --> Paris, Charles de Gaulle Airport ::: \d+\.\d+\$ per km')
+
+    def _run(self, command):
+        return sb.run(command, shell=True, text=True, stdout=sb.PIPE, stderr=sb.PIPE)
