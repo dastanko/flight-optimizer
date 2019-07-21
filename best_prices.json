@@ -1,0 +1,1228 @@
+{
+  "airport:LGW-airport:CDG": {
+    "search_id": "a350931f-48be-482d-9af4-fd9bd62a2437",
+    "data": {},
+    "connections": [],
+    "time": 1,
+    "currency": "USD",
+    "currency_rate": 0.8906702293,
+    "fx_rate": 1.12275,
+    "refresh": [],
+    "del": 0,
+    "ref_tasks": [],
+    "search_params": {
+      "flyFrom_type": "airport",
+      "to_type": "airport",
+      "seats": {
+        "passengers": 1,
+        "adults": 1,
+        "children": 0,
+        "infants": 0
+      }
+    },
+    "airlinesList": [
+      {
+        "filterName": "KL"
+      },
+      {
+        "filterName": "LO"
+      },
+      {
+        "filterName": "RHONEXP"
+      },
+      {
+        "filterName": "LG"
+      },
+      {
+        "filterName": "OUIBUS"
+      },
+      {
+        "filterName": "EUROLINES"
+      },
+      {
+        "filterName": "AIRBUEX"
+      },
+      {
+        "filterName": "FLIBCO"
+      },
+      {
+        "filterName": "FR"
+      },
+      {
+        "filterName": "BLAB"
+      },
+      {
+        "filterName": "BE"
+      },
+      {
+        "filterName": "REGIOJETB"
+      },
+      {
+        "filterName": "SK"
+      },
+      {
+        "filterName": "NATEXPRESS"
+      },
+      {
+        "filterName": "LEBUSDIR"
+      },
+      {
+        "filterName": "OK"
+      },
+      {
+        "filterName": "BY"
+      },
+      {
+        "filterName": "QS"
+      },
+      {
+        "filterName": "OS"
+      },
+      {
+        "filterName": "ALSA"
+      },
+      {
+        "filterName": "TP"
+      },
+      {
+        "filterName": "JP"
+      },
+      {
+        "filterName": "2C"
+      },
+      {
+        "filterName": "VY"
+      },
+      {
+        "filterName": "D8"
+      },
+      {
+        "filterName": "UNIONIV"
+      },
+      {
+        "filterName": "KM"
+      },
+      {
+        "filterName": "RO"
+      },
+      {
+        "filterName": "MAGICSHUT"
+      },
+      {
+        "filterName": "0B"
+      },
+      {
+        "filterName": "AF"
+      },
+      {
+        "filterName": "EW"
+      },
+      {
+        "filterName": "PS"
+      },
+      {
+        "filterName": "EI"
+      },
+      {
+        "filterName": "FLIXBUS"
+      },
+      {
+        "filterName": "OXFORDBUS"
+      },
+      {
+        "filterName": "U2"
+      },
+      {
+        "filterName": "VK"
+      },
+      {
+        "filterName": "DY"
+      },
+      {
+        "filterName": "BA"
+      },
+      {
+        "filterName": "UX"
+      },
+      {
+        "filterName": "I2"
+      },
+      {
+        "filterName": "W6"
+      },
+      {
+        "filterName": "LH"
+      },
+      {
+        "filterName": "OUIGO"
+      },
+      {
+        "filterName": "SN"
+      },
+      {
+        "filterName": "LX"
+      },
+      {
+        "filterName": "JU"
+      },
+      {
+        "filterName": "IB"
+      }
+    ],
+    "airportsList": [
+      {
+        "filterName": "BRI",
+        "name": "Bari Karol Wojtyła"
+      },
+      {
+        "filterName": "AMS",
+        "name": "Amsterdam Airport Schiphol"
+      },
+      {
+        "filterName": "NCE",
+        "name": "Nice Côte d Azur International"
+      },
+      {
+        "filterName": "OTP",
+        "name": "Henri Coandă International"
+      },
+      {
+        "filterName": "BEG",
+        "name": "Belgrade Nikola Tesla"
+      },
+      {
+        "filterName": "NTE",
+        "name": "Nantes Atlantique"
+      },
+      {
+        "filterName": "BCN",
+        "name": "Barcelona–El Prat"
+      },
+      {
+        "filterName": "DUB",
+        "name": "Dublin"
+      },
+      {
+        "filterName": "KBP",
+        "name": "Boryspil International"
+      }
+    ],
+    "all_airlines": [
+      "KL",
+      "LO",
+      "RHONEXP",
+      "LG",
+      "OUIBUS",
+      "EUROLINES",
+      "AIRBUEX",
+      "FLIBCO",
+      "FR",
+      "BLAB",
+      "BE",
+      "REGIOJETB",
+      "SK",
+      "NATEXPRESS",
+      "LEBUSDIR",
+      "OK",
+      "BY",
+      "QS",
+      "OS",
+      "ALSA",
+      "TP",
+      "JP",
+      "2C",
+      "VY",
+      "D8",
+      "UNIONIV",
+      "KM",
+      "RO",
+      "MAGICSHUT",
+      "0B",
+      "AF",
+      "EW",
+      "PS",
+      "EI",
+      "FLIXBUS",
+      "OXFORDBUS",
+      "U2",
+      "VK",
+      "DY",
+      "BA",
+      "UX",
+      "I2",
+      "W6",
+      "LH",
+      "OUIGO",
+      "SN",
+      "LX",
+      "JU",
+      "IB"
+    ],
+    "all_prices": {
+      "133-141": 1,
+      "158-168": 1,
+      "178-188": 1,
+      "188-200": 2,
+      "200-211": 1,
+      "251-266": 1,
+      "282-299": 1,
+      "316-335": 2,
+      "335-355": 1,
+      "398-422": 2,
+      "447-473": 1,
+      "473-501": 1,
+      "531-562": 1,
+      "562-596": 1,
+      "596-631": 1,
+      "668-708": 1,
+      "944-1000": 1,
+      "1059-1122": 1,
+      "1585-1679": 1
+    },
+    "all_stopover_airports": [
+      "BRI",
+      "AMS",
+      "NCE",
+      "OTP",
+      "BEG",
+      "NTE",
+      "BCN",
+      "DUB",
+      "KBP"
+    ],
+    "best_results": [
+      {
+        "sort": "price",
+        "price": 134,
+        "duration": 4500,
+        "quality": 155.999945
+      }
+    ],
+    "hashtags": [
+      {
+        "name": "evening",
+        "count": 27
+      },
+      {
+        "name": "monday",
+        "count": 23
+      },
+      {
+        "name": "direct",
+        "count": 7
+      },
+      {
+        "name": "duration:1-2",
+        "count": 7
+      },
+      {
+        "name": "departure:21-22",
+        "count": 10
+      },
+      {
+        "name": "arrival:23-24",
+        "count": 2
+      },
+      {
+        "name": "morning",
+        "count": 5
+      },
+      {
+        "name": "afternoon",
+        "count": 6
+      },
+      {
+        "name": "departure:12-13",
+        "count": 1
+      },
+      {
+        "name": "arrival:15-16",
+        "count": 1
+      },
+      {
+        "name": "departure:13-14",
+        "count": 1
+      },
+      {
+        "name": "arrival:16-17",
+        "count": 1
+      },
+      {
+        "name": "departure:18-19",
+        "count": 1
+      },
+      {
+        "name": "arrival:20-21",
+        "count": 3
+      },
+      {
+        "name": "sunday",
+        "count": 11
+      },
+      {
+        "name": "departure:17-18",
+        "count": 1
+      },
+      {
+        "name": "1stop",
+        "count": 26
+      },
+      {
+        "name": "duration:11-12",
+        "count": 1
+      },
+      {
+        "name": "arrival:9-10",
+        "count": 14
+      },
+      {
+        "name": "duration:3-4",
+        "count": 1
+      },
+      {
+        "name": "departure:15-16",
+        "count": 1
+      },
+      {
+        "name": "arrival:19-20",
+        "count": 1
+      },
+      {
+        "name": "duration:6-7",
+        "count": 1
+      },
+      {
+        "name": "departure:7-8",
+        "count": 1
+      },
+      {
+        "name": "arrival:14-15",
+        "count": 2
+      },
+      {
+        "name": "duration:9-10",
+        "count": 18
+      },
+      {
+        "name": "arrival:8-9",
+        "count": 9
+      },
+      {
+        "name": "departure:8-9",
+        "count": 2
+      },
+      {
+        "name": "arrival:10-11",
+        "count": 1
+      },
+      {
+        "name": "departure:22-23",
+        "count": 12
+      },
+      {
+        "name": "2stops",
+        "count": 1
+      },
+      {
+        "name": "duration:10-11",
+        "count": 1
+      },
+      {
+        "name": "duration:4-5",
+        "count": 2
+      },
+      {
+        "name": "departure:14-15",
+        "count": 1
+      },
+      {
+        "name": "duration:8-9",
+        "count": 3
+      },
+      {
+        "name": "departure:23-24",
+        "count": 3
+      }
+    ],
+    "location_hashtags": [
+      "sightseeing&culture",
+      "events"
+    ]
+  },
+  "airport:LGW-airport:TXL": {
+    "search_id": "37ed5604-1dec-4243-9579-31f2f9af6a3c",
+    "data": {},
+    "connections": [],
+    "time": 1,
+    "currency": "USD",
+    "currency_rate": 0.8906702293,
+    "fx_rate": 1.12275,
+    "refresh": [],
+    "del": 0,
+    "ref_tasks": [],
+    "search_params": {
+      "flyFrom_type": "airport",
+      "to_type": "airport",
+      "seats": {
+        "passengers": 1,
+        "adults": 1,
+        "children": 0,
+        "infants": 0
+      }
+    },
+    "airlinesList": [
+      {
+        "filterName": "MT"
+      },
+      {
+        "filterName": "BY"
+      },
+      {
+        "filterName": "TP"
+      },
+      {
+        "filterName": "U2"
+      },
+      {
+        "filterName": "PS"
+      },
+      {
+        "filterName": "AF"
+      },
+      {
+        "filterName": "AY"
+      },
+      {
+        "filterName": "VK"
+      },
+      {
+        "filterName": "PC"
+      },
+      {
+        "filterName": "TB"
+      },
+      {
+        "filterName": "8Q"
+      },
+      {
+        "filterName": "PKSZCZECIN"
+      },
+      {
+        "filterName": "TERAVSN"
+      },
+      {
+        "filterName": "GOOPTI"
+      },
+      {
+        "filterName": "BA"
+      },
+      {
+        "filterName": "TF"
+      },
+      {
+        "filterName": "EI"
+      },
+      {
+        "filterName": "XC"
+      },
+      {
+        "filterName": "SN"
+      },
+      {
+        "filterName": "A3"
+      },
+      {
+        "filterName": "KM"
+      },
+      {
+        "filterName": "0B"
+      },
+      {
+        "filterName": "TU"
+      },
+      {
+        "filterName": "OUIBUS"
+      },
+      {
+        "filterName": "REGIOJETB"
+      },
+      {
+        "filterName": "TK"
+      },
+      {
+        "filterName": "OA"
+      },
+      {
+        "filterName": "UNIONIV"
+      },
+      {
+        "filterName": "XG"
+      },
+      {
+        "filterName": "REGIOJETT"
+      },
+      {
+        "filterName": "KK"
+      },
+      {
+        "filterName": "AUTOSTRAD"
+      },
+      {
+        "filterName": "CRNJAT"
+      },
+      {
+        "filterName": "BLAB"
+      },
+      {
+        "filterName": "UX"
+      },
+      {
+        "filterName": "W9"
+      },
+      {
+        "filterName": "FLIXBUS"
+      },
+      {
+        "filterName": "V7"
+      },
+      {
+        "filterName": "VY"
+      },
+      {
+        "filterName": "OXFORDBUS"
+      },
+      {
+        "filterName": "OS"
+      },
+      {
+        "filterName": "BT"
+      },
+      {
+        "filterName": "QS"
+      },
+      {
+        "filterName": "X3"
+      },
+      {
+        "filterName": "EW"
+      },
+      {
+        "filterName": "OU"
+      },
+      {
+        "filterName": "XQ"
+      },
+      {
+        "filterName": "FLIBCO"
+      },
+      {
+        "filterName": "LUFTHBUS"
+      },
+      {
+        "filterName": "I2"
+      },
+      {
+        "filterName": "OE"
+      },
+      {
+        "filterName": "KARATS"
+      },
+      {
+        "filterName": "AZ"
+      },
+      {
+        "filterName": "LH"
+      },
+      {
+        "filterName": "JU"
+      },
+      {
+        "filterName": "FB"
+      },
+      {
+        "filterName": "EUROBAHN"
+      },
+      {
+        "filterName": "2C"
+      },
+      {
+        "filterName": "2A"
+      },
+      {
+        "filterName": "EUROLINES"
+      },
+      {
+        "filterName": "BJ"
+      },
+      {
+        "filterName": "EN"
+      },
+      {
+        "filterName": "DY"
+      },
+      {
+        "filterName": "AIRBUEX"
+      },
+      {
+        "filterName": "SU"
+      },
+      {
+        "filterName": "FR"
+      },
+      {
+        "filterName": "AT"
+      },
+      {
+        "filterName": "OK"
+      },
+      {
+        "filterName": "OBB"
+      },
+      {
+        "filterName": "KL"
+      },
+      {
+        "filterName": "NOMAGO"
+      },
+      {
+        "filterName": "D8"
+      },
+      {
+        "filterName": "NATEXPRESS"
+      },
+      {
+        "filterName": "BE"
+      },
+      {
+        "filterName": "LS"
+      },
+      {
+        "filterName": "LO"
+      },
+      {
+        "filterName": "LA"
+      },
+      {
+        "filterName": "SLOVAKLNS"
+      },
+      {
+        "filterName": "LG"
+      },
+      {
+        "filterName": "FLIXTRAIN"
+      },
+      {
+        "filterName": "SK"
+      },
+      {
+        "filterName": "LX"
+      },
+      {
+        "filterName": "W6"
+      },
+      {
+        "filterName": "CZECHRAILT"
+      },
+      {
+        "filterName": "IB"
+      },
+      {
+        "filterName": "ESTLOREK"
+      }
+    ],
+    "airportsList": [
+      {
+        "filterName": "BIO",
+        "name": "Bilbao"
+      },
+      {
+        "filterName": "ALC",
+        "name": "Alicante–Elche"
+      },
+      {
+        "filterName": "MAD",
+        "name": "Adolfo Suárez Madrid–Barajas"
+      },
+      {
+        "filterName": "EDI",
+        "name": "Edinburgh Airport"
+      },
+      {
+        "filterName": "ARN",
+        "name": "Stockholm Arlanda"
+      },
+      {
+        "filterName": "AMS",
+        "name": "Amsterdam Airport Schiphol"
+      },
+      {
+        "filterName": "CDG",
+        "name": "Charles de Gaulle Airport"
+      },
+      {
+        "filterName": "KRK",
+        "name": "John Paul II International Airport Kraków–Balice"
+      },
+      {
+        "filterName": "VCE",
+        "name": "Venice Marco Polo"
+      },
+      {
+        "filterName": "DBV",
+        "name": "Dubrovnik"
+      },
+      {
+        "filterName": "ZRH",
+        "name": "Zürich Airport"
+      },
+      {
+        "filterName": "DUB",
+        "name": "Dublin"
+      },
+      {
+        "filterName": "MUC",
+        "name": "Munich"
+      },
+      {
+        "filterName": "MXP",
+        "name": "Milan–Malpensa"
+      },
+      {
+        "filterName": "GOT",
+        "name": "Göteborg Landvetter"
+      },
+      {
+        "filterName": "RIX",
+        "name": "Riga International"
+      },
+      {
+        "filterName": "STR",
+        "name": "Stuttgart"
+      },
+      {
+        "filterName": "ORY",
+        "name": "Paris Orly"
+      },
+      {
+        "filterName": "IBZ",
+        "name": "Ibiza"
+      },
+      {
+        "filterName": "LUX",
+        "name": "Luxembourg"
+      },
+      {
+        "filterName": "NCE",
+        "name": "Nice Côte d Azur International"
+      },
+      {
+        "filterName": "HAM",
+        "name": "Hamburg"
+      },
+      {
+        "filterName": "KBP",
+        "name": "Boryspil International"
+      },
+      {
+        "filterName": "OTP",
+        "name": "Henri Coandă International"
+      },
+      {
+        "filterName": "PMI",
+        "name": "Palma de Mallorca"
+      },
+      {
+        "filterName": "DUS",
+        "name": "Düsseldorf International Airport"
+      },
+      {
+        "filterName": "CPH",
+        "name": "Airport Copenhagen"
+      },
+      {
+        "filterName": "BEG",
+        "name": "Belgrade Nikola Tesla"
+      },
+      {
+        "filterName": "LYS",
+        "name": "Lyon–Saint-Exupéry"
+      },
+      {
+        "filterName": "VIE",
+        "name": "Vienna International"
+      },
+      {
+        "filterName": "CGN",
+        "name": "Cologne Bonn Airport"
+      },
+      {
+        "filterName": "BSL",
+        "name": "EuroAirport Basel Mulhouse Freiburg"
+      },
+      {
+        "filterName": "FRA",
+        "name": "Frankfurt International Airport"
+      }
+    ],
+    "all_airlines": [
+      "MT",
+      "BY",
+      "TP",
+      "U2",
+      "PS",
+      "AF",
+      "AY",
+      "VK",
+      "PC",
+      "TB",
+      "8Q",
+      "PKSZCZECIN",
+      "TERAVSN",
+      "GOOPTI",
+      "BA",
+      "TF",
+      "EI",
+      "XC",
+      "SN",
+      "A3",
+      "KM",
+      "0B",
+      "TU",
+      "OUIBUS",
+      "REGIOJETB",
+      "TK",
+      "OA",
+      "UNIONIV",
+      "XG",
+      "REGIOJETT",
+      "KK",
+      "AUTOSTRAD",
+      "CRNJAT",
+      "BLAB",
+      "UX",
+      "W9",
+      "FLIXBUS",
+      "V7",
+      "VY",
+      "OXFORDBUS",
+      "OS",
+      "BT",
+      "QS",
+      "X3",
+      "EW",
+      "OU",
+      "XQ",
+      "FLIBCO",
+      "LUFTHBUS",
+      "I2",
+      "OE",
+      "KARATS",
+      "AZ",
+      "LH",
+      "JU",
+      "FB",
+      "EUROBAHN",
+      "2C",
+      "2A",
+      "EUROLINES",
+      "BJ",
+      "EN",
+      "DY",
+      "AIRBUEX",
+      "SU",
+      "FR",
+      "AT",
+      "OK",
+      "OBB",
+      "KL",
+      "NOMAGO",
+      "D8",
+      "NATEXPRESS",
+      "BE",
+      "LS",
+      "LO",
+      "LA",
+      "SLOVAKLNS",
+      "LG",
+      "FLIXTRAIN",
+      "SK",
+      "LX",
+      "W6",
+      "CZECHRAILT",
+      "IB",
+      "ESTLOREK"
+    ],
+    "all_prices": {
+      "237-251": 2,
+      "224-237": 3,
+      "266-282": 1,
+      "282-299": 2,
+      "299-316": 2,
+      "316-335": 4,
+      "335-355": 6,
+      "355-376": 1,
+      "376-398": 5,
+      "398-422": 2,
+      "422-447": 3,
+      "447-473": 4,
+      "473-501": 2,
+      "501-531": 1,
+      "531-562": 1,
+      "562-596": 4,
+      "596-631": 4,
+      "668-708": 1,
+      "708-750": 2,
+      "750-794": 2,
+      "794-841": 1,
+      "891-944": 1,
+      "944-1000": 1,
+      "1000-1059": 5,
+      "1334-1413": 1
+    },
+    "all_stopover_airports": [
+      "BIO",
+      "ALC",
+      "MAD",
+      "EDI",
+      "ARN",
+      "AMS",
+      "CDG",
+      "KRK",
+      "VCE",
+      "DBV",
+      "ZRH",
+      "DUB",
+      "MUC",
+      "MXP",
+      "GOT",
+      "RIX",
+      "STR",
+      "ORY",
+      "IBZ",
+      "LUX",
+      "NCE",
+      "HAM",
+      "KBP",
+      "OTP",
+      "PMI",
+      "DUS",
+      "CPH",
+      "BEG",
+      "LYS",
+      "VIE",
+      "CGN",
+      "BSL",
+      "FRA"
+    ],
+    "best_results": [
+      {
+        "sort": "price",
+        "price": 230,
+        "duration": 7500,
+        "quality": 258.666595
+      }
+    ],
+    "hashtags": [
+      {
+        "name": "evening",
+        "count": 21
+      },
+      {
+        "name": "monday",
+        "count": 65
+      },
+      {
+        "name": "2stops",
+        "count": 23
+      },
+      {
+        "name": "duration:19-20",
+        "count": 1
+      },
+      {
+        "name": "departure:20-21",
+        "count": 1
+      },
+      {
+        "name": "arrival:17-18",
+        "count": 9
+      },
+      {
+        "name": "morning",
+        "count": 49
+      },
+      {
+        "name": "duration:9-10",
+        "count": 6
+      },
+      {
+        "name": "departure:7-8",
+        "count": 17
+      },
+      {
+        "name": "afternoon",
+        "count": 24
+      },
+      {
+        "name": "sunday",
+        "count": 8
+      },
+      {
+        "name": "direct",
+        "count": 3
+      },
+      {
+        "name": "duration:2-3",
+        "count": 3
+      },
+      {
+        "name": "departure:17-18",
+        "count": 1
+      },
+      {
+        "name": "arrival:21-22",
+        "count": 2
+      },
+      {
+        "name": "departure:18-19",
+        "count": 10
+      },
+      {
+        "name": "departure:6-7",
+        "count": 1
+      },
+      {
+        "name": "arrival:9-10",
+        "count": 9
+      },
+      {
+        "name": "1stop",
+        "count": 47
+      },
+      {
+        "name": "duration:14-15",
+        "count": 2
+      },
+      {
+        "name": "duration:7-8",
+        "count": 10
+      },
+      {
+        "name": "arrival:15-16",
+        "count": 2
+      },
+      {
+        "name": "duration:5-6",
+        "count": 17
+      },
+      {
+        "name": "arrival:14-15",
+        "count": 4
+      },
+      {
+        "name": "duration:4-5",
+        "count": 8
+      },
+      {
+        "name": "arrival:12-13",
+        "count": 3
+      },
+      {
+        "name": "duration:6-7",
+        "count": 8
+      },
+      {
+        "name": "departure:12-13",
+        "count": 6
+      },
+      {
+        "name": "arrival:20-21",
+        "count": 8
+      },
+      {
+        "name": "departure:21-22",
+        "count": 5
+      },
+      {
+        "name": "arrival:7-8",
+        "count": 9
+      },
+      {
+        "name": "arrival:13-14",
+        "count": 6
+      },
+      {
+        "name": "duration:8-9",
+        "count": 7
+      },
+      {
+        "name": "departure:9-10",
+        "count": 5
+      },
+      {
+        "name": "arrival:18-19",
+        "count": 4
+      },
+      {
+        "name": "duration:10-11",
+        "count": 3
+      },
+      {
+        "name": "arrival:16-17",
+        "count": 7
+      },
+      {
+        "name": "departure:14-15",
+        "count": 2
+      },
+      {
+        "name": "departure:8-9",
+        "count": 7
+      },
+      {
+        "name": "arrival:19-20",
+        "count": 9
+      },
+      {
+        "name": "duration:12-13",
+        "count": 7
+      },
+      {
+        "name": "arrival:8-9",
+        "count": 1
+      },
+      {
+        "name": "departure:13-14",
+        "count": 4
+      },
+      {
+        "name": "departure:15-16",
+        "count": 1
+      },
+      {
+        "name": "departure:10-11",
+        "count": 5
+      },
+      {
+        "name": "departure:11-12",
+        "count": 4
+      },
+      {
+        "name": "departure:23-24",
+        "count": 3
+      },
+      {
+        "name": "duration:11-12",
+        "count": 1
+      },
+      {
+        "name": "departure:19-20",
+        "count": 1
+      }
+    ],
+    "location_hashtags": [
+      "activities",
+      "sightseeing&culture"
+    ]
+  }
+}

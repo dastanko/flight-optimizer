@@ -1,0 +1,1063 @@
+{
+  "": {
+    "locations": [],
+    "meta": {
+      "locale": {
+        "code": "en-US",
+        "status": "Locale not specified, using default."
+      }
+    },
+    "last_refresh": 1562237618
+  },
+  "abra_cadabra": {
+    "locations": [],
+    "meta": {
+      "locale": {
+        "code": "en-US",
+        "status": "Locale not specified, using default."
+      }
+    },
+    "last_refresh": 1562237618
+  },
+  "london": {
+    "locations": [
+      {
+        "id": "LGW",
+        "int_id": 8949,
+        "active": true,
+        "code": "LGW",
+        "icao": "EGKK",
+        "name": "Gatwick",
+        "slug": "gatwick-london-united-kingdom",
+        "alternative_names": [
+          "Gatwick (London)",
+          "London Gatwick (North Terminal)"
+        ],
+        "rank": 2,
+        "global_rank_dst": 2,
+        "dst_popularity_score": 1205299.0,
+        "timezone": "Europe/London",
+        "city": {
+          "id": "london_gb",
+          "name": "London",
+          "code": "LON",
+          "slug": "london-united-kingdom",
+          "subdivision": null,
+          "autonomous_territory": null,
+          "country": {
+            "id": "GB",
+            "name": "United Kingdom",
+            "slug": "united-kingdom",
+            "code": "GB"
+          },
+          "region": {
+            "id": "northern-europe",
+            "name": "Northern Europe",
+            "slug": "northern-europe"
+          },
+          "continent": {
+            "id": "europe",
+            "name": "Europe",
+            "slug": "europe",
+            "code": "EU"
+          }
+        },
+        "location": {
+          "lat": 51.148056,
+          "lon": -0.190278
+        },
+        "alternative_departure_points": [
+          {
+            "id": "QDH",
+            "distance": 99.18,
+            "duration": 4292
+          },
+          {
+            "id": "XQB",
+            "distance": 100.39,
+            "duration": 4244.3
+          },
+          {
+            "id": "QQX",
+            "distance": 206.99,
+            "duration": 9291.4
+          },
+          {
+            "id": "XQD",
+            "distance": 156.68,
+            "duration": 6678.1
+          },
+          {
+            "id": "BHX",
+            "distance": 230.87,
+            "duration": 9853
+          },
+          {
+            "id": "QQN",
+            "distance": 235.02,
+            "duration": 10265.2
+          },
+          {
+            "id": "BOH",
+            "distance": 171.02,
+            "duration": 7565.5
+          },
+          {
+            "id": "BRS",
+            "distance": 232.04,
+            "duration": 10481.3
+          },
+          {
+            "id": "FZO",
+            "distance": 218.78,
+            "duration": 9232.4
+          },
+          {
+            "id": "CBG",
+            "distance": 156.59,
+            "duration": 6936.5
+          },
+          {
+            "id": "ZBC",
+            "distance": 248.03,
+            "duration": 10294.3
+          },
+          {
+            "id": "CVT",
+            "distance": 214.89,
+            "duration": 8942.5
+          },
+          {
+            "id": "XPW",
+            "distance": 129.07,
+            "duration": 6146.8
+          },
+          {
+            "id": "QQD",
+            "distance": 130.94,
+            "duration": 5562.4
+          },
+          {
+            "id": "EMA",
+            "distance": 251.39,
+            "duration": 10364.6
+          },
+          {
+            "id": "XQE",
+            "distance": 64.36,
+            "duration": 2894.1
+          },
+          {
+            "id": "QQU",
+            "distance": 53.41,
+            "duration": 4301
+          },
+          {
+            "id": "XGM",
+            "distance": 255.38,
+            "duration": 10564.1
+          },
+          {
+            "id": "QQH",
+            "distance": 172.15,
+            "duration": 7328.3
+          },
+          {
+            "id": "LHR",
+            "distance": 69.18,
+            "duration": 3282.8
+          },
+          {
+            "id": "XHU",
+            "distance": 180.47,
+            "duration": 7649.4
+          },
+          {
+            "id": "QQK",
+            "distance": 54.76,
+            "duration": 4143.4
+          },
+          {
+            "id": "QEW",
+            "distance": 228.99,
+            "duration": 9645.3
+          },
+          {
+            "id": "XQT",
+            "distance": 258.84,
+            "duration": 10667.7
+          },
+          {
+            "id": "ZLS",
+            "distance": 51.79,
+            "duration": 3952.1
+          },
+          {
+            "id": "ZEP",
+            "distance": 49.47,
+            "duration": 3555.8
+          },
+          {
+            "id": "BQH",
+            "distance": 39.25,
+            "duration": 2363.7
+          },
+          {
+            "id": "LCY",
+            "distance": 85.18,
+            "duration": 4169.3
+          },
+          {
+            "id": "OXF",
+            "distance": 144.3,
+            "duration": 6339.8
+          },
+          {
+            "id": "SEN",
+            "distance": 100.94,
+            "duration": 4717.4
+          },
+          {
+            "id": "STN",
+            "distance": 121.25,
+            "duration": 5541.8
+          },
+          {
+            "id": "XQI",
+            "distance": 248.62,
+            "duration": 10226.8
+          },
+          {
+            "id": "LTN",
+            "distance": 121.75,
+            "duration": 5653.1
+          },
+          {
+            "id": "LYX",
+            "distance": 127.56,
+            "duration": 5656.5
+          },
+          {
+            "id": "XQM",
+            "distance": 200.59,
+            "duration": 8974.4
+          },
+          {
+            "id": "ZFH",
+            "distance": 147.15,
+            "duration": 6086.1
+          },
+          {
+            "id": "XNE",
+            "distance": 248.86,
+            "duration": 10474.9
+          },
+          {
+            "id": "XNV",
+            "distance": 225.04,
+            "duration": 9511.5
+          },
+          {
+            "id": "QQP",
+            "distance": 55.27,
+            "duration": 3894.7
+          },
+          {
+            "id": "XVH",
+            "distance": 212.84,
+            "duration": 8913.1
+          },
+          {
+            "id": "FFD",
+            "distance": 176.19,
+            "duration": 7854.7
+          },
+          {
+            "id": "NHT",
+            "distance": 82.78,
+            "duration": 3925
+          },
+          {
+            "id": "QQR",
+            "distance": 136.72,
+            "duration": 5848.5
+          },
+          {
+            "id": "XRE",
+            "distance": 95.57,
+            "duration": 4458.7
+          },
+          {
+            "id": "XRU",
+            "distance": 202.25,
+            "duration": 8521.2
+          },
+          {
+            "id": "XSR",
+            "distance": 156.95,
+            "duration": 7020.3
+          },
+          {
+            "id": "SOU",
+            "distance": 124.59,
+            "duration": 5745.3
+          },
+          {
+            "id": "QQS",
+            "distance": 54.78,
+            "duration": 4142.9
+          },
+          {
+            "id": "XVJ",
+            "distance": 129.41,
+            "duration": 5435.2
+          },
+          {
+            "id": "XOF",
+            "distance": 77.92,
+            "duration": 4049
+          },
+          {
+            "id": "XWS",
+            "distance": 158.44,
+            "duration": 7010.5
+          },
+          {
+            "id": "TTK",
+            "distance": 85.29,
+            "duration": 4662.9
+          },
+          {
+            "id": "XWE",
+            "distance": 175.55,
+            "duration": 7600.4
+          },
+          {
+            "id": "XWO",
+            "distance": 56.33,
+            "duration": 2740.9
+          }
+        ],
+        "tags": [
+          {
+            "tag": "family fun",
+            "month_to": -1,
+            "month_from": -1
+          },
+          {
+            "tag": "sightseeing&culture",
+            "month_to": -1,
+            "month_from": -1
+          }
+        ],
+        "providers": [
+          1053,
+          1111,
+          1165
+        ],
+        "special": [
+          {
+            "id": "st-paul-s-cathedral_poi",
+            "name": "St. Paul's Cathedral",
+            "slug": "st-paul-s-cathedral"
+          },
+          {
+            "id": "stonehenge_poi",
+            "name": "Stonehenge",
+            "slug": "stonehenge"
+          },
+          {
+            "id": "portsea-island_poi",
+            "name": "Portsea Island",
+            "slug": "portsea-island"
+          },
+          {
+            "id": "tower-of-london_poi",
+            "name": "Tower of London",
+            "slug": "tower-of-london"
+          },
+          {
+            "id": "roman-baths-bath_poi",
+            "name": "Roman Baths, Bath",
+            "slug": "roman-baths"
+          },
+          {
+            "id": "avebury_poi",
+            "name": "Avebury",
+            "slug": "avebury"
+          },
+          {
+            "id": "natural-history-museum_poi",
+            "name": "Natural History Museum",
+            "slug": "natural-history-museum"
+          },
+          {
+            "id": "canterbury-cathedral_poi",
+            "name": "Canterbury Cathedral",
+            "slug": "canterbury-cathedral"
+          },
+          {
+            "id": "isle-of-wight_poi",
+            "name": "Isle of Wight",
+            "slug": "isle-of-wight"
+          },
+          {
+            "id": "tate-modern_poi",
+            "name": "Tate Modern",
+            "slug": "tate-modern"
+          },
+          {
+            "id": "british-museum_poi",
+            "name": "British Museum",
+            "slug": "british-museum"
+          }
+        ],
+        "tourist_region": [
+          {
+            "id": "greater-london_poi",
+            "name": "Greater London",
+            "slug": "greater-london"
+          }
+        ],
+        "car_rentals": [],
+        "type": "airport"
+      }
+    ],
+    "meta": {
+      "locale": {
+        "code": "en-US",
+        "status": "Locale not specified, using default."
+      }
+    },
+    "last_refresh": 1562237618
+  },
+  "paris": {
+    "locations": [
+      {
+        "id": "CDG",
+        "int_id": 9667,
+        "active": true,
+        "code": "CDG",
+        "icao": "LFPG",
+        "name": "Charles de Gaulle Airport",
+        "slug": "charles-de-gaulle-paris-france",
+        "alternative_names": [
+          "Aéroport de Paris-Charles-de-Gaulle",
+          "Paris (CDG)"
+        ],
+        "rank": 1,
+        "global_rank_dst": 0,
+        "dst_popularity_score": 1973749.0,
+        "timezone": "Europe/Paris",
+        "city": {
+          "id": "paris_fr",
+          "name": "Paris",
+          "code": "PAR",
+          "slug": "paris-france",
+          "subdivision": null,
+          "autonomous_territory": null,
+          "country": {
+            "id": "FR",
+            "name": "France",
+            "slug": "france",
+            "code": "FR"
+          },
+          "region": {
+            "id": "western-europe",
+            "name": "Western Europe",
+            "slug": "western-europe"
+          },
+          "continent": {
+            "id": "europe",
+            "name": "Europe",
+            "slug": "europe",
+            "code": "EU"
+          }
+        },
+        "location": {
+          "lat": 49.009722,
+          "lon": 2.547778
+        },
+        "alternative_departure_points": [
+          {
+            "id": "BVA",
+            "distance": 76.91,
+            "duration": 3371.4
+          },
+          {
+            "id": "ZGJ",
+            "distance": 266.95,
+            "duration": 10274.6
+          },
+          {
+            "id": "CRL",
+            "distance": 257.97,
+            "duration": 9521.1
+          },
+          {
+            "id": "ZYR",
+            "distance": 280.38,
+            "duration": 10460.4
+          },
+          {
+            "id": "CFR",
+            "distance": 263.47,
+            "duration": 10443.5
+          },
+          {
+            "id": "XFF",
+            "distance": 271.9,
+            "duration": 10109.8
+          },
+          {
+            "id": "CQF",
+            "distance": 267.34,
+            "duration": 9965.8
+          },
+          {
+            "id": "XCR",
+            "distance": 198.42,
+            "duration": 8349.2
+          },
+          {
+            "id": "XIZ",
+            "distance": 133.66,
+            "duration": 6014.6
+          },
+          {
+            "id": "DOL",
+            "distance": 213.03,
+            "duration": 8533.4
+          },
+          {
+            "id": "XDB",
+            "distance": 197.12,
+            "duration": 7223.4
+          },
+          {
+            "id": "XHP",
+            "distance": 21.59,
+            "duration": 1444.8
+          },
+          {
+            "id": "XPG",
+            "distance": 21.45,
+            "duration": 1399.5
+          },
+          {
+            "id": "ZLN",
+            "distance": 232.33,
+            "duration": 9453.1
+          },
+          {
+            "id": "LTQ",
+            "distance": 224.7,
+            "duration": 8530.5
+          },
+          {
+            "id": "LIL",
+            "distance": 189.99,
+            "duration": 7285.3
+          },
+          {
+            "id": "XFA",
+            "distance": 196.11,
+            "duration": 7248.3
+          },
+          {
+            "id": "XED",
+            "distance": 39.51,
+            "duration": 2438.5
+          },
+          {
+            "id": "XJY",
+            "distance": 46.41,
+            "duration": 2544.5
+          },
+          {
+            "id": "QMO",
+            "distance": 218.01,
+            "duration": 8002.9
+          },
+          {
+            "id": "XGB",
+            "distance": 30.32,
+            "duration": 1930.2
+          },
+          {
+            "id": "ORY",
+            "distance": 44.35,
+            "duration": 2524.8
+          },
+          {
+            "id": "LBG",
+            "distance": 14.54,
+            "duration": 1360.9
+          },
+          {
+            "id": "URO",
+            "distance": 123.09,
+            "duration": 6520.4
+          },
+          {
+            "id": "QNM",
+            "distance": 280.11,
+            "duration": 10426.2
+          },
+          {
+            "id": "XJT",
+            "distance": 261.28,
+            "duration": 10198.4
+          },
+          {
+            "id": "TUF",
+            "distance": 260.84,
+            "duration": 10213.5
+          },
+          {
+            "id": "KJK",
+            "distance": 220.66,
+            "duration": 8635.5
+          }
+        ],
+        "tags": [
+          {
+            "tag": "sightseeing&culture",
+            "month_to": -1,
+            "month_from": -1
+          },
+          {
+            "tag": "events",
+            "month_to": -1,
+            "month_from": -1
+          }
+        ],
+        "providers": [
+          1035,
+          1053,
+          1064,
+          1096,
+          1111,
+          1128,
+          1138,
+          1148,
+          1163,
+          1175
+        ],
+        "special": [
+          {
+            "id": "louvre-museum_poi",
+            "name": "Louvre Museum",
+            "slug": "louvre-museum"
+          },
+          {
+            "id": "giverny_poi",
+            "name": "Giverny",
+            "slug": "giverny"
+          },
+          {
+            "id": "le-cimetiere-de-pere-lachaise_poi",
+            "name": "Le Cimetiere de Pere Lachaise",
+            "slug": "le-cimetiere-de-pere-lachaise"
+          },
+          {
+            "id": "notre-dame_poi",
+            "name": "Notre Dame",
+            "slug": "notre-dame"
+          },
+          {
+            "id": "versailles_poi",
+            "name": "Versailles",
+            "slug": "versailles"
+          },
+          {
+            "id": "eiffel-tower_poi",
+            "name": "Eiffel Tower",
+            "slug": "eiffel-tower"
+          }
+        ],
+        "tourist_region": [
+          {
+            "id": "ile-de-france_poi",
+            "name": "Ile de France",
+            "slug": "ile-de-france"
+          },
+          {
+            "id": "greater-paris_poi",
+            "name": "Greater Paris",
+            "slug": "greater-paris"
+          },
+          {
+            "id": "autoroute-utrecht-paris_poi",
+            "name": "Autoroute Utrecht Paris",
+            "slug": "autoroute-utrecht-paris"
+          }
+        ],
+        "car_rentals": [
+          {
+            "provider_id": 1175,
+            "providers_locations": [
+              "644548"
+            ]
+          }
+        ],
+        "type": "airport"
+      }
+    ],
+    "meta": {
+      "locale": {
+        "code": "en-US",
+        "status": "Locale not specified, using default."
+      }
+    },
+    "last_refresh": 1562237618
+  },
+  "berlin": {
+    "locations": [
+      {
+        "id": "TXL",
+        "int_id": 6830,
+        "active": true,
+        "code": "TXL",
+        "icao": "EDDT",
+        "name": "Berlin Tegel",
+        "slug": "berlin-tegel-berlin-germany",
+        "alternative_names": [
+          "Flughafen Berlin-Tegel",
+          "Tegel (Berlin)"
+        ],
+        "rank": 5,
+        "global_rank_dst": 5,
+        "dst_popularity_score": 535952.0,
+        "timezone": "Europe/Berlin",
+        "city": {
+          "id": "berlin_de",
+          "name": "Berlin",
+          "code": "BER",
+          "slug": "berlin-germany",
+          "subdivision": null,
+          "autonomous_territory": null,
+          "country": {
+            "id": "DE",
+            "name": "Germany",
+            "slug": "germany",
+            "code": "DE"
+          },
+          "region": {
+            "id": "central-europe",
+            "name": "Central Europe",
+            "slug": "central-europe"
+          },
+          "continent": {
+            "id": "europe",
+            "name": "Europe",
+            "slug": "europe",
+            "code": "EU"
+          }
+        },
+        "location": {
+          "lat": 52.559722,
+          "lon": 13.287778
+        },
+        "alternative_departure_points": [
+          {
+            "id": "AOC",
+            "distance": 245.04,
+            "duration": 10444
+          },
+          {
+            "id": "BER",
+            "distance": 36.19,
+            "duration": 2210.1
+          },
+          {
+            "id": "QPP",
+            "distance": 11.17,
+            "duration": 1175.6
+          },
+          {
+            "id": "QWB",
+            "distance": 13.46,
+            "duration": 1476.8
+          },
+          {
+            "id": "SXF",
+            "distance": 32.39,
+            "duration": 2099.8
+          },
+          {
+            "id": "THF",
+            "distance": 17.83,
+            "duration": 1167.7
+          },
+          {
+            "id": "QWC",
+            "distance": 7.87,
+            "duration": 877.5
+          },
+          {
+            "id": "BWE",
+            "distance": 221.44,
+            "duration": 8527.2
+          },
+          {
+            "id": "ZTZ",
+            "distance": 267.56,
+            "duration": 10331.7
+          },
+          {
+            "id": "CSO",
+            "distance": 191.47,
+            "duration": 7949.7
+          },
+          {
+            "id": "ZTT",
+            "distance": 137.09,
+            "duration": 5714.3
+          },
+          {
+            "id": "CBU",
+            "distance": 168.34,
+            "duration": 7092
+          },
+          {
+            "id": "ZSU",
+            "distance": 123.77,
+            "duration": 5097.9
+          },
+          {
+            "id": "DRS",
+            "distance": 195.71,
+            "duration": 7668.1
+          },
+          {
+            "id": "XIR",
+            "distance": 199.85,
+            "duration": 7982.1
+          },
+          {
+            "id": "ZFR",
+            "distance": 111.92,
+            "duration": 5169.1
+          },
+          {
+            "id": "ZGA",
+            "distance": 253.74,
+            "duration": 9412
+          },
+          {
+            "id": "ZGE",
+            "distance": 224.84,
+            "duration": 10737.6
+          },
+          {
+            "id": "ZGW",
+            "distance": 232.81,
+            "duration": 9744.8
+          },
+          {
+            "id": "ZHZ",
+            "distance": 169.3,
+            "duration": 6977.2
+          },
+          {
+            "id": "OBZ",
+            "distance": 276.42,
+            "duration": 10315
+          },
+          {
+            "id": "ZMB",
+            "distance": 276.65,
+            "duration": 10311
+          },
+          {
+            "id": "ZJS",
+            "distance": 243.54,
+            "duration": 9537.3
+          },
+          {
+            "id": "XIT",
+            "distance": 186.13,
+            "duration": 7480.2
+          },
+          {
+            "id": "LEJ",
+            "distance": 176.27,
+            "duration": 7409.2
+          },
+          {
+            "id": "LBC",
+            "distance": 265.27,
+            "duration": 10662.4
+          },
+          {
+            "id": "ZLU",
+            "distance": 176.3,
+            "duration": 7097.3
+          },
+          {
+            "id": "ZWT",
+            "distance": 109.46,
+            "duration": 5240.1
+          },
+          {
+            "id": "ZMG",
+            "distance": 157.98,
+            "duration": 6656.1
+          },
+          {
+            "id": "FRF",
+            "distance": 185.27,
+            "duration": 7810.1
+          },
+          {
+            "id": "ZSK",
+            "distance": 138.23,
+            "duration": 6303.8
+          },
+          {
+            "id": "REB",
+            "distance": 149.45,
+            "duration": 6518.9
+          },
+          {
+            "id": "ZRX",
+            "distance": 202.56,
+            "duration": 8612.6
+          },
+          {
+            "id": "9FI",
+            "distance": 218.19,
+            "duration": 8320.5
+          },
+          {
+            "id": "RLG",
+            "distance": 194.98,
+            "duration": 7653.1
+          },
+          {
+            "id": "ZSQ",
+            "distance": 214.88,
+            "duration": 10355.2
+          },
+          {
+            "id": "ZSD",
+            "distance": 234.44,
+            "duration": 9154.6
+          },
+          {
+            "id": "ZSR",
+            "distance": 198.14,
+            "duration": 8175.1
+          },
+          {
+            "id": "SZZ",
+            "distance": 189.94,
+            "duration": 9135.7
+          },
+          {
+            "id": "ZSX",
+            "distance": 267.67,
+            "duration": 10554.1
+          },
+          {
+            "id": "ZFX",
+            "distance": 149.45,
+            "duration": 7019.3
+          },
+          {
+            "id": "ZWD",
+            "distance": 230.6,
+            "duration": 8743.3
+          },
+          {
+            "id": "ZWM",
+            "distance": 237.72,
+            "duration": 8995.4
+          },
+          {
+            "id": "ZWN",
+            "distance": 158.62,
+            "duration": 7254.7
+          },
+          {
+            "id": "ZQU",
+            "distance": 224.59,
+            "duration": 8785.9
+          },
+          {
+            "id": "IEG",
+            "distance": 213.89,
+            "duration": 9574.1
+          }
+        ],
+        "tags": [
+          {
+            "tag": "activities",
+            "month_to": -1,
+            "month_from": -1
+          },
+          {
+            "tag": "sightseeing&culture",
+            "month_to": -1,
+            "month_from": -1
+          }
+        ],
+        "providers": [
+          1035,
+          1064,
+          1096,
+          1111,
+          1138,
+          1148,
+          1175
+        ],
+        "special": [
+          {
+            "id": "zwinger_poi",
+            "name": "Zwinger",
+            "slug": "zwinger"
+          },
+          {
+            "id": "brandenburg-gate-berlin_poi",
+            "name": "Brandenburg Gate, Berlin",
+            "slug": "brandenburg-gate"
+          },
+          {
+            "id": "berlin-wall_poi",
+            "name": "Berlin Wall",
+            "slug": "berlin-wall"
+          },
+          {
+            "id": "reichstag-building_poi",
+            "name": "Reichstag Building",
+            "slug": "reichstag-building"
+          }
+        ],
+        "tourist_region": [
+          {
+            "id": "berlin-federal-state_poi",
+            "name": "Berlin Federal State",
+            "slug": "berlin-federal-state"
+          }
+        ],
+        "car_rentals": [
+          {
+            "provider_id": 1175,
+            "providers_locations": [
+              "165449"
+            ]
+          }
+        ],
+        "type": "airport"
+      }
+    ],
+    "meta": {
+      "locale": {
+        "code": "en-US",
+        "status": "Locale not specified, using default."
+      }
+    },
+    "last_refresh": 1562237618
+  }
+}
