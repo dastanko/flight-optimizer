@@ -32,7 +32,7 @@ def mocked_request(url, params=None, **kwargs):
         return get_best_price_fixture(params)
 
 
-class FlightOptimizerTestCase(unittest.TestCase):
+class FlightCalculatorTestCase(unittest.TestCase):
     def setUp(self) -> None:
         self.london = Airport(city='london', name='Gatwick', code='LGW', rank=2, loc=(51.148056, -0.190278))
         self.paris = Airport(city='paris', name='Charles de Gaulle Airport', code='CDG', rank=1,
