@@ -22,6 +22,9 @@ class Airport:
     rank: int
     loc: tuple
 
+    def __repr__(self) -> str:
+        return f'{self.city}, {self.name}'
+
 
 @dataclass
 class Flight:
@@ -29,6 +32,13 @@ class Flight:
     destination: Airport
     distance: float
     price: float
+
+    @property
+    def price_per_km(self) -> float:
+        return self.distance / self.price
+
+    def __repr__(self) -> str:
+        return f'{self.departure} --> {self.destination} ::: {self.price_per_km:.2f} $ per km'
 
 
 class NoSuchCity(Exception):
