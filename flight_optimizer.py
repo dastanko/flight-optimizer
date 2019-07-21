@@ -100,8 +100,9 @@ class FlightCalculator:
             'fly_to': f'airport:{dest_airport.code}',
             'date_from': date.today().strftime(DATE_FORMAT),
             'date_to': (date.today() + timedelta(days=1)).strftime(DATE_FORMAT),
-            'flight_type': "round",
+            'flight_type': "round",  # You are flying to/from the main airport in each city.
             'curr': 'USD'
+            # Queries tickets for single adult by default.
         }
         response = rq.get(AGGREGATION_FLIGHTS_URL, params=query, headers={'X-API-Version': '1'})
         data: dict = response.json()
