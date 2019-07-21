@@ -4,7 +4,7 @@
 
 ## Usage
 ```
-./flight_optimizer -h
+./build-and-run-flight-optimizer -h
 ```
 
 ## Development guide
